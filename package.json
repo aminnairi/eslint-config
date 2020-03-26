@@ -1,0 +1,29 @@
+{
+    "name": "@aminnairi/eslint-config",
+    "version": "0.1.0",
+    "description": "ESLint configuration presets",
+    "homepage": "https://github.com/aminnairi/eslint-config#readme",
+    "main": "./src/eslint.config.js",
+    "license": "MIT",
+    "keywords": [
+        "eslint",
+        "config"
+    ],
+    "files": [
+        "./lib/eslint.config.js"
+    ],
+    "bugs": {
+        "url": "https://github.com/aminnairi/eslint-config/issues"
+    },
+    "author": {
+        "name": "Amin NAIRI",
+        "url": "https://github.com/aminnairi"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aminnairi/eslint-config"
+    },
+    "peerDependencies": {
+        "eslint": ">= 3.0.0"
+    }
+}
