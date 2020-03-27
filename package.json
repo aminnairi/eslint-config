@@ -13,7 +13,7 @@
         "config"
     ],
     "files": [
-        "./lib/eslint.config.js"
+        "lib"
     ],
     "bugs": {
         "url": "https://github.com/aminnairi/eslint-config/issues"
