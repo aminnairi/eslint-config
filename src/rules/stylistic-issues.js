@@ -14,7 +14,7 @@ export default {
     "computed-property-spacing": ["error", "never"],
     "consistent-this": ["off"],
     "eol-last": ["error", "always"],
-    "func-call-spacing": ["error", "never", { "allowNewlines": false }],
+    "func-call-spacing": ["error", "never"],
     "func-name-matching": ["error", "always", { "includeCommonJSModuleExports": true, "considerPropertyDescriptor": true }],
     "func-names": ["error", "always", { "generators": "always" }],
     "func-style": ["error", "expression"],
