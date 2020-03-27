@@ -1,6 +1,6 @@
 "use strict";
 
-module.exports = {
+export default {
     "array-bracket-newline": ["error", "consistent"],
     "array-bracket-spacing": ["error", "never"],
     "array-element-newline": ["error", "consistent"],

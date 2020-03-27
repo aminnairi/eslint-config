@@ -1,6 +1,6 @@
 "use strict";
 
-module.exports = {
+export default {
     "no-console": "off",
     "for-direction": "error",
     "getter-return": ["error", { allowImplicit: true }],

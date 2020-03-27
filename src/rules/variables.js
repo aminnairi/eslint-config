@@ -1,6 +1,6 @@
 "use strict";
 
-module.exports = {
+export default {
     "init-declarations": ["error", "always"],
     "no-delete-var": "error",
     "no-label-var": "error",

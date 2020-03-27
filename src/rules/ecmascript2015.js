@@ -1,6 +1,6 @@
 "use strict";
 
-module.exports = {
+export default {
     "arrow-body-style": ["error", "as-needed", { "requireReturnForObjectLiteral": false }],
     "arrow-parens": ["error", "as-needed", { "requireForBlockBody": false }],
     "arrow-spacing": ["error", { "before": true, "after": true }],

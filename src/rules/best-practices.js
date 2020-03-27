@@ -1,6 +1,6 @@
 "use strict";
 
-module.exports = {
+export default {
     "accessor-pairs": ["error", { "getWithoutSet": true, "enforceForClassMembers": true }],
     "array-callback-return": ["error", { "allowImplicit": true }],
     "block-scoped-var": "error",

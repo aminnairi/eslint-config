@@ -1,14 +1,14 @@
 "use strict";
 
-const bestPractices = require("./rules/best-practices.js");
-const ecmascript2015 = require("./rules/ecmascript2015.js");
-const node = require("./rules/node.js");
-const possibleErrors = require("./rules/possible-errors.js");
-const strictMode = require("./rules/strict-mode.js");
-const stylisticIssues = require("./rules/stylistic-issues.js");
-const variables = require("./rules/variables.js");
+import bestPractices from "./rules/best-practices.js";
+import ecmascript2015 from "./rules/ecmascript2015.js";
+import node from "./rules/node.js";
+import possibleErrors from "./rules/possible-errors.js";
+import strictMode from "./rules/strict-mode.js";
+import stylisticIssues from "./rules/stylistic-issues.js";
+import variables from "./rules/variables.js";
 
-module.exports = {
+export default {
     rules: {
         ...bestPractices,
         ...ecmascript2015,

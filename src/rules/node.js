@@ -1,6 +1,6 @@
 "use strict";
 
-module.exports = {
+export default {
     "callback-return": "error",
     "global-require": "error",
     "handle-callback-err": "error",
