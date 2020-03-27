@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+    npm:
+        image: node
+        user: node
+        entrypoint: npm
+        working_dir: /home/node
+        volumes:
+            - .:/home/node
