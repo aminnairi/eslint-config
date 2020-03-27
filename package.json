@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "description": "ESLint configuration presets",
     "homepage": "https://github.com/aminnairi/eslint-config#readme",
-    "main": "./src/eslint.config.js",
+    "main": "./lib/eslint.config.js",
     "license": "MIT",
     "scripts": {
         "build": "rollup --config rollup.config.js"
