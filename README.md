@@ -8,7 +8,7 @@
 ## :building_construction: Installation
 
 ```console
-$ npm install --save-dev aminnairi/eslint-config
+$ npm install aminnairi/eslint-config
 ```
 
 ## :thinking: Usage
@@ -46,8 +46,9 @@ $ cd eslint-config
 ### :thinking: Usage
 
 ```console
-$ make install  # install the dependencies
-$ make build    # build the configuration into the "lib" folder
+$ make install      # install the dependencies
+$ make build        # build the configuration into the "lib" folder
+$ make uninstall    # remove the "node_modules" folder
 ```
 
 ## :pray: Contributing
