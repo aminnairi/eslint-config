@@ -1,17 +1,17 @@
-# eslint-config
+# :wrench: eslint-config
 
-## Requirements
+## :pushpin: Requirements
 
 - [Node.js](https://nodejs.org)
 - [NPM](https://www.npmjs.com)
 
-## Installation
+## :building_construction: Installation
 
 ```console
 $ npm install --save-dev aminnairi/eslint-config
 ```
 
-## Usage
+## :thinking: Usage
 
 ```console
 $ touch .eslintrc.js
@@ -27,23 +27,23 @@ module.exports = {
 };
 ```
 
-## Development
+## :construction_worker: Development
 
-### Requirements
+### :pushpin: Requirements
 
 - Git
 - Docker
 - Docker Compose
 - GNU/Make
 
-### Installation
+### :building_construction: Installation
 
 ```console
 $ git clone https://github.com/aminnairi/eslint-config.git
 $ cd eslint-config
 ```
 
-### Usage
+### :thinking: Usage
 
 ```console
 $ make install  # install the dependencies
