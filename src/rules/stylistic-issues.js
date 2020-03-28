@@ -10,7 +10,7 @@ export default {
     "capitalized-comments": "off",
     "comma-dangle": ["error", { "arrays": "never", "objects": "never", "imports": "never", "exports": "never", "functions": "never" }],
     "comma-spacing": ["error", { "before": false, "after": true }],
-    "comma-style": ["error", "first"],
+    "comma-style": ["error", "last"],
     "computed-property-spacing": ["error", "never"],
     "consistent-this": ["off"],
     "eol-last": ["error", "always"],
