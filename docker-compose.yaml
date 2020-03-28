@@ -8,3 +8,10 @@ services:
         working_dir: /home/node
         volumes:
             - .:/home/node
+
+    shell:
+        image: node
+        user: node
+        working_dir: /home/node
+        volumes:
+            - .:/home/node
