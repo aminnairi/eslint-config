@@ -1,5 +1,6 @@
 "use strict";
 
+
 export default {
     "array-bracket-newline": ["error", "consistent"],
     "array-bracket-spacing": ["error", "never"],
@@ -57,7 +58,7 @@ export default {
     "no-plusplus": "off",
     "no-tabs": ["error", { allowIndentationTabs: false }],
     "no-ternary": "error",
-    "no-trailing-spaces": "off",
+    "no-trailing-spaces": ["error", { "skipBlankLines": false, "ignoreComments": true }],
     "no-underscore-dangle": ["error", { "allowAfterThis": false, "allowAfterSuper": false, "allowAfterThisConstructor": false, "enforceInMethodNames": true }],
     "no-unneeded-ternary": "off",
     "no-whitespace-before-property": "error",
