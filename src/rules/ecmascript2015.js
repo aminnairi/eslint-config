@@ -20,7 +20,7 @@ export default {
     "object-shorthand": ["error", "always"],
     "prefer-arrow-callback": ["error", { "allowUnboundThis": false }],
     "prefer-const": "error",
-    "prefer-destructuring": ["error", { "array": true, "object": true }, { "enforceForRenamedProperties": true }],
+    "prefer-destructuring": "off",
     "prefer-numeric-literals": "error",
     "prefer-rest-params": "error",
     "prefer-spread": "error",
