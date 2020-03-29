@@ -57,7 +57,7 @@ export default {
     "no-plusplus": "off",
     "no-tabs": ["error", { allowIndentationTabs: false }],
     "no-ternary": "error",
-    "no-trailing-spaces": ["error", { "skipBlankLines": false, "ignoreComments": true }],
+    "no-trailing-spaces": "off",
     "no-underscore-dangle": ["error", { "allowAfterThis": false, "allowAfterSuper": false, "allowAfterThisConstructor": false, "enforceInMethodNames": true }],
     "no-unneeded-ternary": "off",
     "no-whitespace-before-property": "error",
