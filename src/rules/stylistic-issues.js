@@ -77,7 +77,7 @@ export default {
     "quote-props": ["error", "consistent-as-needed"],
     "quotes": ["error", "double", { "avoidEscape": true, "allowTemplateLiterals": true }],
     "semi": ["error", "always"],
-    "semi-spacing": ["error", { "before": false, "after": false }],
+    "semi-spacing": ["error", { "before": false, "after": true }],
     "semi-style": ["error", "last"],
     "sort-keys": ["error", "asc", { "caseSensitive": false, "natural": true }],
     "sort-vars": ["error", { "ignoreCase": true }],
