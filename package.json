@@ -27,8 +27,7 @@
         "url": "https://github.com/aminnairi/eslint-config"
     },
     "peerDependencies": {
-        "eslint": ">= 3.0.0",
-        "babel-eslint": ">= 6.0.0"
+        "eslint": ">= 3.0.0"
     },
     "devDependencies": {
         "@babel/core": "^7.9.0",
