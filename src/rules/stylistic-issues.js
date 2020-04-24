@@ -29,7 +29,7 @@ export default {
     "line-comment-position": "off",
     "linebreak-style": ["error", "unix"],
     "lines-around-comment": ["off"],
-    "lines-between-class-members": ["error", "never", {exceptAfterSingleLine: true}],
+    "lines-between-class-members": ["error", "always"],
     "max-depth": "off",
     "max-len": "off",
     "max-lines": "off",
