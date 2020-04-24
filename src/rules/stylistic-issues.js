@@ -28,8 +28,8 @@ export default {
     "keyword-spacing": ["error", { "before": true, "after": true }],
     "line-comment-position": "off",
     "linebreak-style": ["error", "unix"],
-    "lines-around-comment": ["off"],
-    "lines-between-class-members": ["error", "always"],
+    "lines-around-comment": ["off"]
+    "lines-between-class-members": ["error", "never", {exceptAfterSingleLine: true}],
     "max-depth": "off",
     "max-len": "off",
     "max-lines": "off",
