@@ -1,7 +1,7 @@
 "use strict";
 
 export default {
-    "callback-return": "error",
+    "callback-return": "off",
     "global-require": "error",
     "handle-callback-err": "error",
     "no-buffer-constructor": "error",
