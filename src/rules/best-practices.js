@@ -11,7 +11,7 @@ export default {
     "default-case": "error",
     "default-param-last": ["error"],
     "dot-location": ["error", "property"],
-    "dot-notation": ["error", { "allowKeywords": false }],
+    "dot-notation": ["error", { "allowKeywords": true }],
     "eqeqeq": ["error", "always"],
     "grouped-accessor-pairs": ["error", "getBeforeSet"],
     "guard-for-in": "error",
