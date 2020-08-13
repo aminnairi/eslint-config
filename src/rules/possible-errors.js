@@ -5,7 +5,7 @@ export default {
     "for-direction": "error",
     "getter-return": ["error", { allowImplicit: true }],
     "no-async-promise-executor": "error",
-    "no-await-in-loop": "error",
+    "no-await-in-loop": "off",
     "no-compare-neg-zero": "error",
     "no-cond-assign": ["error", "always"],
     "no-constant-condition": ["error", { "checkLoops": true }],
